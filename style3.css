@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+ #navbar::before{
+   content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;
+}
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{
+    color: white;
+   display: block;
+   padding: 3px 22px;
+   border-radius: 20px;
+   text-decoration: none;
+   font-family: 'Baloo 2', cursive;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+   
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 623px;
+    justify-content: center;
+    align-items: center;   
+}
+
+#home img{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    
+    min-width: 100%;
+    z-index: -1;
+
+}
+
+.h-primary{
+    text-align: center;
+    color: white;
+    padding: 12px;
+    font-size: 2.5rem;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}
+
+#home p{
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(41, 11, 11);
+    color: white;
+    margin: 17px;
+    font-size: 1.5 rem;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.services-container .h-primary{
+    color: black;
+}
+
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+}
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+.h-secondary{
+ text-align: center;   
+}
+#client-section{
+    height: 344px;
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 104px;
+    padding: 55px 40px;
+
+}
+.h-primary{
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    padding: 9px 20px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+
+#contact-box input,
+#contact-box textarea{
+width: 100%;
+padding: .5rem;
+border-radius: 10px;
+
+}
